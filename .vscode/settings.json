@@ -5,6 +5,7 @@
         "./examples/2-variables/mutable/Cargo.toml",
         "./examples/2-variables/variables/Cargo.toml",
         "./examples/3-control-flow/conditionals/Cargo.toml",
+        "./examples/3-control-flow/Cargo.toml",
         "./examples/4-shadowing/shadowing/Cargo.toml",
         "./examples/5-loops/loops/Cargo.toml",
         "./examples/6-conditionals/conditionals/Cargo.toml",
@@ -20,5 +21,8 @@
         "./examples/15-panic/panicking/Cargo.toml",
         "./examples/16-error-handling/error-handling/Cargo.toml",
         "./examples/17-data-structures/Cargo.toml"
-    ]
+    ],
+    "rust-analyzer.cargo.allFeatures": true,
+    "rust-analyzer.lens.run.enable": true,
+    "rust-analyzer.lens.debug.enable": true
 }

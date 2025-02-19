@@ -4,13 +4,19 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
+            "name": "Debug Rust",
             "type": "lldb",
             "request": "launch",
-            "name": "Debug",
-            "program": "${workspaceFolder}/<executable file>",
+            "program": "${workspaceFolder}/examples/3-control-flow/conditionals/target/debug/conditionals",
             "args": [],
-            "cwd": "${workspaceFolder}"
+            "cwd": "${workspaceFolder}/examples/3-control-flow/conditionals",
+            "preLaunchTask": "cargo build",
+            "stopOnEntry": false,
+            "sourceLanguages": ["rust"],
+            "console": "integratedTerminal"
         }
+
     ]
 }
