@@ -9,7 +9,7 @@
             "name": "Debug Rust",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/examples/3-control-flow/conditionals/target/debug/conditionals",
+            "program": "${workspaceFolder}/examples/3-control-flow/conditionals/target/debug/conditionals.exe",
             "args": [],
             "cwd": "${workspaceFolder}/examples/3-control-flow/conditionals",
             "preLaunchTask": "cargo build",
